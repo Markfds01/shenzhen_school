@@ -12,5 +12,5 @@ pip install -r requirements.txt
 If this does not work, intall manually these packages: pandas, numpy, netorkx, randdom, matplotlib using:
 ```
 pip install 'package_name'
-``
+```
 
