@@ -9,3 +9,8 @@ Once you have it in your computer, I recommend you to create a virtual enviromen
 pip install -r requirements.txt
 ```
 
+If this does not work, intall manually these packages: pandas, numpy, netorkx, randdom, matplotlib using:
+```
+pip install 'package_name'
+``
+
