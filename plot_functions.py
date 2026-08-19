@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import seaborn as sns
 import numpy as np
 
 def plot_well_mixed_ODES(df):
@@ -32,7 +31,7 @@ def plot_well_mixed_stochastic(df):
 
 def plot_well_mixed_Gillespie(df):
     plt.figure(figsize=(12, 6))
-    plt.title("Well-Mixed ODEs Simulation")
+    plt.title("Well-Mixed Gillespie Simulation")
     plt.xlabel("Time")
     plt.ylabel("Population")
     for sim in df['Simulation'].unique():
